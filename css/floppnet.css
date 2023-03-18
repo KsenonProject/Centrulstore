@@ -1,0 +1,74 @@
+* {
+    font-family: 'Russo One', sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
+
+body {
+    background: #b22eff;
+    background: radial-gradient(circle, #b22eff 0%, #4f1256 100%);
+}
+
+#sbtn {
+    padding: 12px;
+    border-radius: 0px 8px 8px 0px;
+    background-color: #300B35;
+    border: none;
+}
+
+#sbi {
+    padding: 12px;
+    border-radius: 8px 0px 0px 8px;
+    width: 75%;
+    background-color: #390E3F;
+    border: none;
+}
+
+#logo {
+    margin-top: 160px;
+}
+
+#icon {
+    border-radius: 12px;
+    margin-top: 32px;
+    margin-left: 8px;
+    padding: 12px;
+    background-color: #390D3F;
+}
+
+#toolbar {
+    display: flex;
+    border-radius: 12px;
+    padding: 8px;
+    background-color: #FDEB6B;
+    background-size: 100%;
+    margin: 0px;
+}
+
+.but1 {
+    color: black;
+    background-color: #F9D400;
+    border: none;
+    font-size: 8px;
+    border-radius: 0px 24px 24px 0px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.but1:hover {
+    background-color: #E5C300;
+}
+
+.material-symbols-outlined {
+    color: black;
+}
+
+.sear {
+    width: 282px;
+    height: 26px;
+    color: black;
+    background-color: #DDCC5F;
+    border: none;
+    border-radius: 24px 0px 0px 24px;
+    padding-left: 8px;
+}
